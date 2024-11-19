@@ -1,0 +1,4 @@
+@use './bootstrap/bootstrap' as * with ( // 上書きするスタイル
+  $primary: #213c57,
+  // $secondary: blue,
+);

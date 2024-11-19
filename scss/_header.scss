@@ -1,0 +1,18 @@
+// ヘッダースタイル
+.sk-header {
+  background: #fff;
+
+  &-logo {
+    width: 50px;
+    height: auto;
+  }
+
+  .navbar-brand {
+    text-transform: uppercase;
+  }
+
+  .nav-item {
+    font-size: 1.4rem;
+    padding: 0 .7rem;
+  }
+}
