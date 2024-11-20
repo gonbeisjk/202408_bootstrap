@@ -11981,6 +11981,7 @@ textarea.form-control-lg {
 }
 .sk-header {
   background: #fff;
+  box-shadow: 0 2px 8px #213c57;
 }
 .sk-header-logo {
   width: 50px;
@@ -11992,4 +11993,20 @@ textarea.form-control-lg {
 .sk-header .nav-item {
   font-size: 1.4rem;
   padding: 0 0.7rem;
+}
+
+.showcase {
+  background: url(../img/space_mountain.jpg) no-repeat center bottom/cover;
+}
+.showcase-overlay {
+  padding-top: 120px;
+  background: rgba(33, 60, 87, 0.8);
+}
+.showcase-cover {
+  max-width: 300px;
+}
+@media (max-width: 767.98px) {
+  .showcase-title {
+    font-size: 2.3rem;
+  }
 }/*# sourceMappingURL=style.css.map */

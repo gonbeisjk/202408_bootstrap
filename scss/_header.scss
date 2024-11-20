@@ -1,6 +1,9 @@
 // ヘッダースタイル
+@use './bootstrap/bootstrap' as *;
+
 .sk-header {
   background: #fff;
+  box-shadow: 0 2px 8px $primary;
 
   &-logo {
     width: 50px;
