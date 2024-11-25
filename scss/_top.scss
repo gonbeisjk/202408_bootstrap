@@ -2,6 +2,11 @@
 @use './variable' as *;
 @use './bootstrap/bootstrap' as *;
 
+:root {
+  // JavaScriptでスムーススクロールするため
+  scroll-behavior: auto;
+}
+
 .showcase {
   background: url(../img/space_mountain.jpg) no-repeat center bottom / cover;
 
